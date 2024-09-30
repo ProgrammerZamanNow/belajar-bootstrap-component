@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Belajar Bootstrap</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>Spinner</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="spinner-border">
+                <span class="visually-hidden">Loading</span>
+            </div>
+            <div class="spinner-border text-primary">
+                <span class="visually-hidden">Loading</span>
+            </div>
+            <div class="spinner-border text-success">
+                <span class="visually-hidden">Loading</span>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="spinner-grow">
+                <span class="visually-hidden">Loading</span>
+            </div>
+            <div class="spinner-grow text-primary">
+                <span class="visually-hidden">Loading</span>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="spinner-grow text-success" style="width: 100px; height: 100px">
+                    <span class="visually-hidden">Loading</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <button class="btn btn-danger disabled">
+                <span class="spinner-border spinner-border-sm"></span>
+                <span>Loading...</span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<script src="bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>
